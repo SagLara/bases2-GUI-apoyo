@@ -2,87 +2,58 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SGA - Login</title>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
-    <!-- Material Design Bootstrap -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Material Design Bootstrap -->
 </head>
-
-
-
 <div class="login">
-
-    <!--Section: Content-->
-    <section class="p-5 text-center">
-
-        <form class="my-5 mx-md-5" action="">
-
-            <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <!-- Material form login -->
-                    <div class="card">
-
-                        <!--Card content-->
-                        <div class="card-body">
-
-                            <!-- Form -->
-                            <form class="text-center" style="color: #757575;">
-                                <i class="fas fa-5x fa-utensils btn-secondary-ud"></i>
-                                <h2 class="font-weight-bold my-4 pb-2 text-center dark-grey-text">Sistema de Apoyo Alimentario</h2>
-                                <hr>
-                                <!-- Name -->
-                                <input type="email" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Correo (Institucional)">
-
-                                <!-- Email -->
-                                <input type="password" id="defaultSubscriptionFormEmail" class="form-control" placeholder="Contraseña">
-                                <br>
-                                <small id="passwordHelpBlock" class="form-text text-center blue-text">
-                                     <a href="">¿Olvidaste la contraseña?</a>
-                                </small>
-                                <hr>
-
-                                <div class="text-center">
-                                    <a href="home-admin.html">
-                                        <input type="button" class="btn btn-estudent rounded my-4 waves-effect" value="Iniciar Sesion">
-                                    </a>
-                                    <!-- <button type="submit" class="btn btn-estudent rounded my-4 waves-effect">Iniciar Sesion</button> -->
-                                    <a href="pruba.html" class="btn logout rounded my-4 waves-effect" role="button" aria-disabled="true">Registrarse</a>
-                                    <!-- <button type="button" class="btn logout rounded my-4 waves-effect" onclick="home-admin.html">Registrarse</button> -->
-                                </div>
-
-                            </form>
-                            <!-- Form -->
-
-                        </div>
-
-                    </div>
-                    <!-- Material form login -->
+  <!--Section: Content-->
+  <section class="p-5 text-center">
+    <form class="my-5 mx-md-5" action="">
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <!-- Material form login -->
+          <div class="card">
+            <!--Card content-->
+            <div class="card-body">
+              <!-- Form -->
+              <form class="text-center" action="" style="color: #757575;">
+                <img src="img/fork-spoon.png" class=" rounded-circle " width="120em" height="120em" />
+                <h3 class="font-weight-bold my-4 pb-2 text-center dark-grey-text">Sistema de Apoyo Alimentario</h3>
+                <hr>
+                <div class="col-md-10 mx-auto">
+                  <input type="email" id="defaultSubscriptionFormPassword" class="form-control mb-3" placeholder="Correo Institucional">
+                  <input type="password" id="defaultSubscriptionFormEmail" class="form-control" placeholder="Contraseña"><br>
                 </div>
+                <small id="passwordHelpBlock" class="form-text text-center blue-text">
+                  <a href="#">¿Olvidaste la contraseña?</a><br>
+                  <a href="#">Registrarse</a>
+                </small>
+                <hr>
+                <div class="text-center">
+                  <a href="home-admin.html" class="btn btn-primary">
+                    Ingresar
+                  </a>
+                </div>
+              </form>
+              <!-- Form -->
             </div>
-
-        </form>
-
-    </section>
-    <!--Section: Content-->
-
-
+          </div>
+          <!-- Material form login -->
+        </div>
+      </div>
+    </form>
+  </section>
+  <!--Section: Content-->
 </div>
-
-<div class="container aqua-gradient m">
-
-</div>
-
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootstrap tooltips -->
@@ -91,10 +62,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-<!--     <script>
-        new WOW().init();
-    </script> -->
-
 </body>
 
 </html>
